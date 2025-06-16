@@ -10,13 +10,26 @@ Eureka Server helps manage service registration and discovery in a microservices
 - Spring Cloud Netflix Eureka Server
 - Maven
 
----
 ## 🚀 Running the Server
-To run the Eureka Server:
-### Using Maven Wrapper:
-```bash
-mvn spring-boot:run
-```
+
+### 🏁 Steps
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/shaxzodDev/eureka-server.git
+   cd eureka-server
+
+2. **Build the project:**
+    ```bash
+   mvn clean install
+
+3. **Run the application:**
+    ```bash
+   mvn spring-boot:run
+
+4. The service should start on port 8761.
+---
+
 Once the application starts, you can access the Eureka dashboard at:
 ```bash
 http://localhost:8761/
